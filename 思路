@@ -1,0 +1,46 @@
+1、确定技术
+   通信   TCP通信
+   并发   多进程并发
+   数据库 mysql
+   
+2、确定数据库：建立几个表，每个表作用和存储内容
+*建表
+用户表：id  name  passwd
+历史记录：id  name  word  time
+单词：id  word  mean
+# creat database dict charse=utf8；
+# create table user (id int primary key auto_increment,name varchar(32) not null,passwd varchar(128) not null);
+# create table history_record(id int primary key auto_increment,name varchar(32)not null,word varchar(32)not null,time varchar(64)not null);
+# create table vocabulary(id int primary key auto_increment,word varchar(32),mean text);
+*编写程序将单词存入到数据库
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
