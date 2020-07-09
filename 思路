@@ -14,6 +14,17 @@
 # create table vocabulary(id int primary key auto_increment,word varchar(32),mean text);
 *编写程序将单词存入到数据库
 
+3、结构设计
+  客户端
+  服务端（处理数据）
+  
+4、客户端和服务端分别需要实现哪些功能
+  网络模型
+  登录
+  注册
+  查单词
+  历史记录
+
 
 
 
